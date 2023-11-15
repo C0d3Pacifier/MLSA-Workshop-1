@@ -32,11 +32,11 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "User Interface Design",
+  "Computer Networking",
+  "Malware Analysis",
+  "SOC analysis",
+  "C, C++, Python",
 ];
 
 /**
@@ -53,7 +53,7 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
+          backgroundColor: "gray",
           width: "50%",
           padding: "4rem",
           margin: "3rem auto",
